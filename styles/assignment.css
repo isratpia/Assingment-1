@@ -39,9 +39,14 @@ nav .menu a{
   border-radius: 4px;
   background-color:#469165 ;
   color: #FFFFFF;
-  font-size: 16;
+  font-size: 16px;
   font-weight: 600;
   padding: 13px 16px;
+  margin-right: 10px;
+  cursor: pointer; 
+}
+.btn:hover{
+  background-color: #00491e;
 }
 #banner{
   padding: 116px 120px 180px;
@@ -266,4 +271,53 @@ nav .menu a{
   font-size: 16px;
   line-height: 20px;
   color: #627382;
+}
+#footer{
+  background-color: #001931;
+  padding-top: 120px;
+}
+.footer-container{
+  max-width: 1360px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.footer-logo{
+  max-width: 139px;
+  margin-bottom: 80px;
+}
+.social-links h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.social-logo{
+  color: #FFFFFF;
+}
+.social-icons{
+  margin-right: 16px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  color: #000000;
+  font-size: 15px;
+}
+.footer-right{
+  max-width: 1360px;
+  margin: 0 auto;
+  color: #FAFAFA;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin: 30px auto;
+}
+.footer hr{
+  max-width: 1360px;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  box-shadow: 0 4px 4px 0 #000000;
 }
