@@ -228,3 +228,42 @@ nav .menu a{
   line-height: 20px;
   margin-bottom: 16px;
 }
+#join{
+  padding: 2px 120px 120px 120px;
+}
+.join-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+}
+.join-system{
+  max-width: 1280px;
+  text-align: center;
+}
+.join-system h3{
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.join-system p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+.join-link{
+  max-width: 1280px;
+  text-align: center;
+}
+.join-link .btn{
+  margin-bottom: 16px;
+}
+.join-link p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
