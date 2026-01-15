@@ -94,6 +94,7 @@ nav .menu a{
   padding: 0 ;
   color: #FFFFFF;
   line-height: 84px;
+  margin: 0 auto;
 }
 .green-color{
   color: #30B868;
@@ -142,6 +143,7 @@ nav .menu a{
   font-size: 16px;
   color: #627382;
   margin-bottom: 44px;
+  line-height: 20px;
 }
 .strategy-box{
   display:flex;
@@ -181,7 +183,6 @@ nav .menu a{
   max-width: 1360px;
   margin: 0 auto;
   display: flex;
-  /* align-items: center; */
   gap: 60px;
 }
 .knowledge-img{
@@ -190,6 +191,7 @@ nav .menu a{
 }
   .knowledge-info{
   padding: 102px 0;
+  max-width: 700px;
 }
 .knowledge-info h5{
   font-size: 16px;
@@ -198,7 +200,31 @@ nav .menu a{
   color: #30B868;
 }
 .knowledge-info h3{
+  max-width: 483px;
   font-size: 48px;
   font-weight: 700;
   color: #001931;
+  margin-bottom: 16px;
+}
+.knowledge-info p{
+  max-width: 482px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.knowledge-info .list{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.list img{
+  max-width: 20px;
+  max-height: 20px;
+}
+.list{
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin-bottom: 16px;
 }
